@@ -1,0 +1,25 @@
+<!--Samba Chennamsetty-->
+<!--Mar 10, 2023 -->
+<!--Project 5 Promt For Name-->
+<html>
+  <head>
+    <title>Prompt for Name</title>
+  </head>
+  <body>
+    <script>
+      var name = "";
+
+      while (true) {
+        name = prompt("Enter your name:");
+
+        const nameCorrect = confirm(`Your name is ${name}. Is this correct?`);
+
+        if (nameCorrect) {
+          break;
+        }
+      }
+
+	document.write(`Welcome, ${name}!`);
+    </script>
+  </body>
+</html>

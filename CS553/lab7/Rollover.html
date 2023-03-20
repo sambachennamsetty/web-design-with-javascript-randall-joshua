@@ -1,0 +1,27 @@
+<!-- Samba Chennamsetty -->
+<!-- 3/06/2023 -->
+<!-- Lab7 -->
+<html>
+   <head>
+<script>
+function showimage(imgName) {
+          if (document.images) {
+	     //alert(imgname);
+	     document.images[0].src = eval(imgName + ".src");
+          }
+}
+if (document.images) {            // Active Images
+           homer = new Image();      
+           homer.src = "homer.gif"; 
+           hibbert = new Image(); 
+           hibbert.src = "hibbert.gif";  
+}
+
+</script>
+      <title></title>
+      <head>
+   <body>
+<a onmouseover="showimage('homer')" onmouseout="showimage('hibbert')"><h1>"would you like a lollypop?"</h1></a>
+<img src="hibbert.gif" alt="hibbert.gif "/>
+</body>
+</html>

@@ -1,0 +1,138 @@
+/* Style for header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+text-align: center; /* Center header contents */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display navigation links side by side */
+  border-top: 1px solid #fff; /* Add a border above the navigation links */
+  border-bottom: 1px solid #fff; /* Add a border below the navigation links */
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style for main content */
+main {
+  padding: 20px;
+ /*height: calc(70vh - 50px);*/
+}
+
+/* Style for footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+ table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      .active {
+        color: green;
+        font-weight: bold;
+      }
+      .pending {
+        color: orange;
+        font-weight: bold;
+      }
+      .rejected {
+        color: red;
+        font-weight: bold;
+      }
+
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .success-message {
+        color: green;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .error-message {
+        color: red;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+  footer a {
+        color: #007bff;
+      }
